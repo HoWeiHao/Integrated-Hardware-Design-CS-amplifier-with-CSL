@@ -1,0 +1,8 @@
+[Logging Service: 2]
+[2024-08-07 17:17:23.675 +0800] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/staff1/elehch/EE3408C_pdk180nm/project/mos_char/maestro/results/maestro"}
+[2024-08-07 17:17:23.675 +0800] [INFO] [cadence.virtuoso.ade.loggingservice] - useGRPC grpc service... {"brokerAddress": "lxb17.cadcam.nus.edu.sg:41801", "serviceName": "DaVinciService_294116_1723022174", "axlSession": "fnxSession1"}
+[2024-08-07 17:17:23.676 +0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "lxb17.cadcam.nus.edu.sg", "processid": 294749, "logfile": "/staff1/elehch/EE3408C_pdk180nm/logs_elehch/logs0/LoggingService2.log"}
+[2024-08-07 17:17:23.689 +0800] [INFO] [cadence.virtuoso.ade.loggingservice] - logging service gRPC started {"broker address": "lxb17.cadcam.nus.edu.sg:36603"}
+[2024-08-07 17:24:07.273 +0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 96.6250 MBytes, peak memory used: 96.6250 MBytes {"hostname": "lxb17.cadcam.nus.edu.sg", "processid": 294749, "logfile": "/staff1/elehch/EE3408C_pdk180nm/logs_elehch/logs0/LoggingService2.log"}
+[2024-08-07 17:24:07.273 +0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "lxb17.cadcam.nus.edu.sg", "processid": 294749, "logfile": "/staff1/elehch/EE3408C_pdk180nm/logs_elehch/logs0/LoggingService2.log"}
+[2024-08-07 17:24:07.273 +0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "lxb17.cadcam.nus.edu.sg", "processid": 294749, "logfile": "/staff1/elehch/EE3408C_pdk180nm/logs_elehch/logs0/LoggingService2.log"}

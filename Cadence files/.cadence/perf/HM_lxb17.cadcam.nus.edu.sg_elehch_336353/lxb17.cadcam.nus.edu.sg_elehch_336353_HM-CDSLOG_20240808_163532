@@ -1,0 +1,141 @@
+\# Program start time:     UTC 2024.08.08 08:35:27.215
+\# Local time: GMT+08:00 (UTC+08:00) 2024.08.08 16:35:27.215
+\o Program:		@(#)$CDS: virtuoso version IC23.1-64b 10/31/2023 23:29 (cpgbld22) $
+\o Hierarchy:		/app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR3.27  (64-bit addresses)
+\# Command line:	/app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost lxb17.cadcam.nus.edu.sg -beanport 11908 -beanbinlog  -beanLogFile /staff1/elehch/EE3408C_pdk180nm/logs_elehch/logs0/amps_Service8.log -mpssession virtuoso327324 -mpshost lxb17.cadcam.nus.edu.sg -davinciService DaVinciService_327324_1723095693 -axlSession fnxSession2 -axlServiceIdFlag 8 -uuid 07291a86-eca1-44b8-a51b-d6dffaa844f0 -heartbeat /dev/shm/swift-heartbeat.fgr3TYO39l -log /staff1/elehch/EE3408C_pdk180nm/logs_elehch/logs0/Service8.log -adeBrokerAddress lxb17.cadcam.nus.edu.sg:35435 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D60E3EA73FC06DF2533FC80069F678B6336BEC54DD2378D7D66E08617CC3C927A48D3BE2EFC06BC4D00570C537F4ADAF900001E23 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	lxb17.cadcam.nus.edu.sg (x86_64)
+\# Operating system:	Linux 4.18.0-553.8.1.el8_10.x86_64 #1 SMP Fri Jun 14 03:19:37 EDT 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:1081 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        724 MB
+\# Available memory:	     45,394 MB
+\# System memory:	     48,219 MB
+\# Maximum memory size:	     47,663 MB
+\# Max mem available:	     45,562 MB
+\# Initial memory used:	        168 MB
+\#        process size:	      1,666 MB
+\# Thread usage limits (effective/default):	maxthreads 61569/61569 maxload 4.00/4.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		elehch
+\o Working Directory:	lxb17.cadcam.nus.edu.sg:/staff1/elehch/EE3408C_pdk180nm
+\# Process Id:		336353
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\w *WARNING* envSetVal: Can't set the value of variable 'enableMarching',
+\w 	in tool[.partition] 'viva.application' - it has not been registered.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         281 MB, process size 1,822 MB at UTC 2024.08.08 08:35:29.075
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) Client process connection mode is LSCS.
+\# [16:35:27.053698] Configured Lic search path (23.02-s003): 32800@lxapp3.cadcam.nus.edu.sg:26585@lxapp3.cadcam.nus.edu.sg
+\e *Error* strcat: argument #1 should be either a string or a symbol (type template = "S") - nil
+\o ......................................................................................
+\o            austriamicrosystems HIT-Kit v.3.60B
+\o ......................................................................................
+\o COPYRIGHT (c) 2004 Full Service Foundry @ austriamicrosystems AG.  ALL RIGHTS RESERVED
+\o This HIT-Kit and attached documentation are confidential information and may 
+\o only be used as authorized by the HIT-Kit license agreement.
+\o ......................................................................................
+\o Loading generic HIT-Kit skill context.
+\e *Error* eval: unbound variable - menuIdPull
+\o Loading the environment file.
+\e *Error* strcat: argument #1 should be either a string or a symbol (type template = "S") - nil
+\o Loading process specific call-back routines.
+\e *Error* eval: unbound variable - AMS_LIB
+\e *Error* eval: unbound variable - AMS_LIB
+\e *Error* eval: unbound variable - AMS_LIB
+\o Loading all available p-cell functions.
+\e *Error* eval: unbound variable - AMS_LIB
+\o Loading default bindkeys.
+\o Loading viva.cxt 
+\o Loading ADS Dynamic Link.
+\w *WARNING* Momentum will not run because the following files are missing:
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/tools/adsMom/.cdsenv
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/skill/si/caplib/momentum.il
+\w *WARNING* The following Keysight configuration files are missing:
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/tools/ads/.cdsenv
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/tools/adsBase/.cdsenv
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/tools/ADSsim/.cdsenv
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/tools/adsDL/.cdsenv
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/skill/hnl/ads.ile
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/skill/si/caplib/ads.ile
+\w     /app11/cadence/IC23.1-ISR3/tools.lnx86/dfII/etc/tools/menus/ADSsim.menus
+\w *WARNING* The context file ads.cxt will not be loaded because Cadence is not configured to run Keysight tools.
+\w     You may need to source $HPEESOF_DIR/bin/setCSF.csh before starting Cadence.
+\e *Error* strcat: argument #1 should be either a string or a symbol (type template = "S") - nil
+\o Setting the prompt.
+\e *Error* eval: undefined function - AMS_setPrompt
+\o Loading $HOME/.cdsinit_personal file from .cdsinit file.
+\o END OF USER CUSTOMIZATION.
+\e *Error* eval: undefined function - AMS_checkProcessOption
+\o END OF SITE CUSTOMIZATION.
+\p > 
+\o Loading le.cxt 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\w *WARNING* could not load font "-*-helvetica-medium-r-*-*-12-*", using font "fixed"
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 336353' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.

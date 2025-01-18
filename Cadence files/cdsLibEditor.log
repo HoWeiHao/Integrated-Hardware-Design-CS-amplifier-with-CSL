@@ -1,0 +1,10 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 23.1 - CAT38 10/12/2023 00:48 (sjfdcl1109) $
+\o Sub version:		sub-version  p310 
+\o Arguments:		-cdslib /staff1/elehch/EE3408C_pdk180nm/cds.lib -mpssession virtuoso219633 -mpshost lxb17.cadcam.nus.edu.sg -mpsversion 23.1 
+\o Working Directory:	lxb17.cadcam.nus.edu.sg:/staff1/elehch/EE3408C_pdk180nm
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.15.9
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(60 83 500 400))
+\a exit(0)

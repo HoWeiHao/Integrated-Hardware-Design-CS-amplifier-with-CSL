@@ -1,0 +1,9 @@
+# File Created by Dr Heng Chun Huat,,x1628(elehch), CMOS RF IC Desing, 03-Aug-2004, Cadence, ECE, 13906E at Wed Aug  7 14:48:25 2024
+# assisted by CdsLibEditor
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE gpdk180 /app11/gpdk180_v3.3/libs.oa22/gpdk180
+DEFINE substrateLib /app11/gpdk180_v3.3/libs.oa22/substrateLib
+#Removed by ddDeleteObj: DEFINE project ~/EE3408C_pdk180nm/project
+DEFINE project ~/EE3408C_pdk180nm/project
